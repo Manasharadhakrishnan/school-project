@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Login From</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+    <div class="login_form_container">
+        <div class="login_form">
+            <form name="loginForm" id="loginForm">
+                <h2>Login</h2>
+                <div class="input_group">
+                    <i class="fa fa-user"></i>
+                    <label class="form-label" for="form2Example11">Username</label>
+                    <input type="text" id=" username" name="username" class="input_text" autocomplete="off" />
+                </div>
+                <div class="input_group">
+                    <i class="fa fa-unlock-alt"></i>
+                    <label class="form-label" for="form2Example11">Password</label>
+                    <input type="password" id="password" name="password" class="input_text" autocomplete="off" />
+                </div>
+                <div class="error-msg" style="color:red;"></div>
+                <div class="button_group" id="login_button">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </div>
+                <div class="fotter">
+                    <a>Forgot Password ?</a>
+                    <a href="http://127.0.0.1:5500/signup.html"> SignUp</a>
+                </div>
+        </div>
+        </form>
+    </div>
+
+
+
+    <script src="login.js"></script>
+</body>
+
+</html>
